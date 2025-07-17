@@ -39,7 +39,7 @@
 
 
 
-// Using useState() BG-Chanegr. //
+// Using useState() BG-Chanegr. (Recomanded) //
 
 import { useState } from "react"
 
