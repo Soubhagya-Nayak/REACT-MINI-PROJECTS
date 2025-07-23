@@ -1,19 +1,15 @@
-import { useState } from 'react'
-import './App.css'
-import Header from './components/Header/Header'
-import Home from './components/Home/Home'
-import Footer from './components/Footer/Footer'
+import './App.css';
+import { Header } from './components/Header/Header.jsx';
+import { Footer } from './components/Footer/Footer.jsx';
+import { Outlet } from 'react-router-dom';
 
-function App() {
-  // const [count, setCount] = useState(0)
+export const App = () => {
 
   return (
     <>
       <Header />
-      <Home />
+      <Outlet />
       <Footer />
     </>
   )
 }
-
-export default App
